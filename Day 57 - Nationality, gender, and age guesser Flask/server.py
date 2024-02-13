@@ -13,7 +13,7 @@ def get_country_name(country_code):
         if country:
             return country.name
         else:
-            return "Sorry, I don't know that country"
+            return "Sorry, I don't know that country."
     except Exception as e:
         return f"Error: {e}"
 
